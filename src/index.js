@@ -1,4 +1,10 @@
 import ReactDOM from "react-dom";
-
-const el = document.getElementById("root");
-ReactDOM.render("olá React", el);
+import React from "react";
+import Primeiro from "./components/basics/Primeiro";
+const tag = <strong>OLÁ MUNDO</strong>;
+ReactDOM.render(
+  <div>
+    <Primeiro />
+  </div>,
+  document.getElementById("root")
+);
